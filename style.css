@@ -1,0 +1,56 @@
+body {
+  font-family: "Merriweather";
+  background-color: #faf7f7;
+}
+.custom-button {
+  background-color: #f78065;
+  width: 250px;
+}
+.decoration-text {
+  color: #f78065;
+}
+.box-shadow {
+  box-shadow: 0 4px 100px #0000001a;
+}
+@media (min-width: 1200px) {
+  .custom-row {
+    padding-right: 98px;
+  }
+  .position {
+    position: absolute !important;
+    bottom: -18rem;
+    left: 4rem !important;
+  }
+  .custom-box {
+    padding: 5rem 9rem 5rem 3rem !important;
+  }
+  .bottom-container {
+    margin-top: 23rem;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .position {
+    position: absolute !important;
+    bottom: -18rem;
+    left: 0rem !important;
+  }
+  .custom-box {
+    padding: 5rem 9rem 5rem 3rem !important;
+  }
+  .bottom-container {
+    margin-top: 23rem;
+  }
+}
+.owl-theme .owl-dots .owl-dot.active span {
+  background: #f78065;
+}
+.custom-nav-buttons {
+  color: #f78065;
+}
+.carousel-btn {
+  padding-bottom: 8rem;
+}
+.carousel-btn:focus,
+.carousel-btn:active {
+  border-color: transparent !important;
+}
